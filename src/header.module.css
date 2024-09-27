@@ -1,0 +1,29 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.head
+{
+    display: flex;
+    margin-top: 7px;
+    
+    border-bottom: 1px solid gainsboro;
+}
+.LeftHead
+{
+    display: flex;
+    width: 40%;
+    margin-left: 7rem;
+    align-items: center;
+    
+    /* justify-content: space-around; */
+}
+.RightHead
+{
+    display: flex;
+    width: 42%;
+    justify-content: end;
+    align-items: center;
+}
